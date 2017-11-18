@@ -1,6 +1,6 @@
 {
   "name": "element-prop-types",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React PropTypes for props-elements",
   "main": "index.js",
   "scripts": {
