@@ -1,0 +1,32 @@
+{
+  "name": "element-prop-types",
+  "version": "0.1.0",
+  "description": "React PropTypes for props-elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardalanamini/element-prop-types.git"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [],
+  "author": "Ardalan Amini <a.amini@miranaco.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardalanamini/element-prop-types/issues"
+  },
+  "homepage": "https://github.com/ardalanamini/element-prop-types#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1"
+  },
+  "devDependencies": {
+    "@types/prop-types": "^15.5.2",
+    "@types/react": "^16.0.25"
+  }
+}
