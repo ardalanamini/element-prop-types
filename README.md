@@ -1,6 +1,10 @@
 # element-prop-types
 React PropTypes for props-elements
 
+[![npm](https://img.shields.io/npm/v/element-prop-types.svg)](https://www.npmjs.com/package/element-prop-types)
+[![npm](https://img.shields.io/npm/dt/element-prop-types.svg)](https://www.npmjs.com/package/element-prop-types)
+[![GitHub license](https://img.shields.io/github/license/ardalanamini/element-prop-types.svg)](https://github.com/ardalanamini/element-prop-types/blob/master/LICENSE)
+
 ## Install
 
 ```
@@ -20,8 +24,8 @@ const Modal = ({ header, items }) => (
 );
 
 Modal.propTypes = {
-    header: ElementPropTypes(Header).isRequired,
-    items: PropTypes.arrayOf(ElementPropTypes(Item))
+    header: ElementPropTypes.elementOf(Header).isRequired,
+    items: PropTypes.arrayOf(ElementPropTypes.elementOf(Item))
 };
 
 // render Modal
@@ -40,6 +44,6 @@ React.render(
 
 ## API
 
-### `ElementPropTypes(Component)`
+### `elementOf(Component)`
 
 checks the type of a React element
