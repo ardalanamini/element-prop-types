@@ -1,32 +1,35 @@
 {
   "name": "element-prop-types",
-  "version": "1.0.1",
-  "description": "React PropTypes for props-elements",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.2",
+  "description": "React PropType for props-elements",
+  "author": "Ardalan Amini <ardalanamini22@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "prop",
+    "prop-type",
+    "proptype",
+    "element"
+  ],
+  "homepage": "https://github.com/ardalanamini/element-prop-types#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ardalanamini/element-prop-types.git"
   },
-  "files": [
-    "src",
-    "dist"
-  ],
-  "keywords": [],
-  "author": "Ardalan Amini <a.amini@miranaco.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ardalanamini/element-prop-types/issues"
   },
-  "homepage": "https://github.com/ardalanamini/element-prop-types#readme",
-  "dependencies": {
-    "prop-types": "^15.6.0",
-    "react": "^16.1.1"
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
+  "dependencies": {
     "@types/prop-types": "^15.5.2",
-    "@types/react": "^16.0.25"
+    "@types/react": "^16.0.40",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0"
   }
 }

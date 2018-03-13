@@ -17,9 +17,10 @@
     "pretty": false,
     "allowJs": true,
     "jsx": "react",
-    "outDir": "dist",
     "rootDir": "src",
-    "strictNullChecks": true,
+    "outDir": "dist",
+    "declaration": true,
+    "strict": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": false
   },
@@ -27,6 +28,7 @@
     "src/**/*"
   ],
   "exclude": [
+    "node_modules",
     "**/*.spec.ts"
   ]
 }
