@@ -1,6 +1,6 @@
 {
   "name": "element-prop-types",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React PropType for props-elements",
   "author": "Ardalan Amini <ardalanamini22@gmail.com>",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "url": "https://github.com/ardalanamini/element-prop-types/issues"
   },
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
