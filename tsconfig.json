@@ -15,7 +15,6 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "pretty": false,
-    "allowJs": true,
     "jsx": "react",
     "rootDir": "src",
     "outDir": "dist",
